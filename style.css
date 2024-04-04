@@ -1,8 +1,11 @@
 
 
-/* * {
-  box-sizing: border-box;
-} */
+*{
+  /* box-sizing: border-box; */
+  background-image: url(images/back.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
 
 body {
   background-color: #b60f26;
@@ -63,4 +66,14 @@ h3 {
 
 .btn:focus {
   outline: 0;
+}
+p{
+  font-size: larger;
+  font-weight: bold;
+}
+.myclass{
+  font-weight: bold;
+}
+.dont{
+  font-weight: bolder;
 }
